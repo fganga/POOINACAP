@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+    <TextView
+
+        android:id="@+id/txv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/txv_distancia_sol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"/>
+    <TextView
+        android:id="@+id/txv_gravedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"/>
+    <TextView
+        android:id="@+id/txv_diametro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
